@@ -47,5 +47,7 @@ Their output:
 
 ---
 Snippet 1: I think the issue of backticks is more complicated because I have to know whether the `[` or `]` is part of the inline code, and that depends on whether or not `[` comes before `` ` ``.
+
 Snippet 2: I think I can fix the issue of nested parentheses by adding variables that count the numbers of `(` and `)`. I can also fix the issue of escaped characters by detecting if there is a `\` in front of the parentheses and brackets.
+
 Snippet 3: I think I can fix the issue of line breaks by detecting if there are empty lines between `[` and `]` or `(` and `)`.
